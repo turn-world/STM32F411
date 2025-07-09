@@ -1,0 +1,6 @@
+1752067718532	Delete 5 resources
+1752067885170	Delete resource 'stm32f103_fw'
+1752067897971	Delete resource 'stm32f411_fw/src/lib/cube_f103'
+1752067963599	Delete 7 resources
+1752067991120	Delete resource 'stm32f411_fw/src/bsp/ldscript/STM32F103C8TX_FLASH.ld'
+1752067998866	Delete resource 'stm32f411_fw/src/bsp/startup/startup_stm32f103c8tx.s'
