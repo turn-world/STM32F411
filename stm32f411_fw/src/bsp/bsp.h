@@ -20,7 +20,10 @@
 #define logPrintf(fmt, ...)
 #endif
 
+
 #include "stm32f4xx_hal.h"
+
+
 
 void bspInit(void);
 

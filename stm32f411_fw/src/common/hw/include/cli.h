@@ -8,7 +8,6 @@
 #ifndef SRC_COMMON_HW_INCLUDE_CLI_H_
 #define SRC_COMMON_HW_INCLUDE_CLI_H_
 
-
 #include "hw_def.h"
 
 
@@ -45,5 +44,6 @@ bool cliKeepLoop(void);
 
 
 #endif
+
 
 #endif /* SRC_COMMON_HW_INCLUDE_CLI_H_ */
