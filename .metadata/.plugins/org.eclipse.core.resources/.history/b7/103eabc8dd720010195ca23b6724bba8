@@ -1,0 +1,26 @@
+/*
+ * button.c
+ *
+ *  Created on: Aug 7, 2025
+ *      Author: young
+ */
+
+#include "button.h"
+#include "cli.h"
+
+
+
+
+bool buttonInit(void)
+{
+	bool ret = true;
+
+	return ret;
+}
+bool buttonGetPressed(uint8_t ch)
+{
+	bool ret = false;
+
+
+	return ret;
+}
