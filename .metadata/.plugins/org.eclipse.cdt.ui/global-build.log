@@ -1,6 +1,6 @@
-01:25:12 **** Incremental Build of configuration Debug for project stm32f411_fw ****
+17:17:50 **** Incremental Build of configuration Debug for project stm32f411_fw ****
 make -j16 all 
-arm-none-eabi-gcc "../src/hw/driver/button.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F411xE -c -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/ap" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/bsp" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/common" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/common/core" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/common/hw/include" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/hw" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Drivers/CMSIS/Include" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/USB_DEVICE/App" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/button.d" -MT"src/hw/driver/button.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/button.o"
+arm-none-eabi-gcc "../src/hw/driver/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F411xE -c -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/ap" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/bsp" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/common" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/common/core" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/common/hw/include" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/hw" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Drivers/CMSIS/Include" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/USB_DEVICE/App" -I"C:/Users/young/Downloads/STM32F411/stm32f411_fw/src/lib/cube_f411/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/gpio.d" -MT"src/hw/driver/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/gpio.o"
 arm-none-eabi-gcc -o "stm32f411_fw.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\young\Downloads\STM32F411\stm32f411_fw\src\bsp\ldscript\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f411_fw.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: stm32f411_fw.elf has a LOAD segment with RWX permissions
 Finished building target: stm32f411_fw.elf
@@ -8,15 +8,8 @@ Finished building target: stm32f411_fw.elf
 arm-none-eabi-size  stm32f411_fw.elf 
 arm-none-eabi-objdump -h -S stm32f411_fw.elf  > "stm32f411_fw.list"
    text	   data	    bss	    dec	    hex	filename
-  48348	    884	   8196	  57428	   e054	stm32f411_fw.elf
+  49452	    896	   8192	  58540	   e4ac	stm32f411_fw.elf
 Finished building: default.size.stdout
  
 Finished building: stm32f411_fw.list
- 
-01:25:16 **** Incremental Build of configuration Debug for project stm32f411_fw ****
-make -j16 all 
-arm-none-eabi-size  stm32f411_fw.elf 
-   text	   data	    bss	    dec	    hex	filename
-  48348	    884	   8196	  57428	   e054	stm32f411_fw.elf
-Finished building: default.size.stdout
  

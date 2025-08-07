@@ -1,0 +1,84 @@
+/*
+ * gpio.c
+ *
+ *  Created on: Aug 7, 2025
+ *      Author: young
+ */
+
+
+#include "gpio.h"
+#include "cli.h"
+
+typedef struct
+{
+	GPIO_TypeDef  *port;
+	uint32_t		pin;
+	uint8_t			mode;
+	GPIO_PinState	on_state;
+	GPIO_PinState	off_state;
+	bool			init_value;
+
+} button_tbl_t;
+
+button_tbl_t gpio_tbl[GPIO_MAX_CH] =
+{
+		{GPIOB,GPIO_PIN_9,_DEF_INPUT_PULLUP, GPIO_PIN_RESET, GPIO_PIN_SET, 1},
+};
+
+
+bool gpioInit(void)
+{
+	bool ret = true;
+
+	/* GPIO Ports Clock Enable */
+		__HAL_RCC_GPIOB_CLK_ENABLE();
+
+	for(int i = 0; i < GPIO_MAX_CH; i++)
+	{
+		gpioPinMode(i,gpio_tbl[i].mode);
+		gpioPinWrite(i,gpio_tbl[i].init_value);
+	}
+
+	GPIO_InitStruct.Pin = GPIO_PIN_9;
+	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+	GPIO_InitStruct.Pull = GPIO_PULLUP;
+	HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+	retrun ret;
+}
+bool gpioPinMode(uint8_t ch, uint8_t mode)
+{
+	bool ret = true;
+	GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+	switch(mode)
+	{
+	case _DEF_INPUT:
+		break;
+	case _DEF_INPUT_PULLUP		1
+#define _DEF_INPUT_PULLDOWN		2
+#define	_DEF_OUTPUT				3
+#define _DEF_OUTPUT_PULLUP		4
+#define	_DEF_OUTPUT_PULLDOWN	5
+	}
+	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+	GPIO_InitStruct.Pull = GPIO_PULLUP;
+
+	GPIO_InitStruct.Pin = button_tbl[i].pin;
+	HAL_GPIO_Init(button_tbl[i].port, &GPIO_InitStruct);
+
+	return ret;
+}
+void gpioPinWrite(uint8_t ch, bool value)
+{
+
+}
+bool gpiopinRead(uint8_t ch)
+{
+	bool ret = false;
+
+	return ret;
+}
+void gpioPinToggle(uint8_t ch)
+{
+
+}
