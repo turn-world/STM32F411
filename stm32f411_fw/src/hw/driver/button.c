@@ -43,6 +43,7 @@ bool buttonInit(void)
 		GPIO_InitStruct.Pin = button_tbl[i].pin;
 		HAL_GPIO_Init(button_tbl[i].port, &GPIO_InitStruct);
 	}
+
 #ifdef _USE_HW_CLI
 	cliAdd("button",cliButton);
 #endif
@@ -79,7 +80,7 @@ void cliButton(cli_args_t * args)
 			{
 				cliPrintf("%d", buttonGetPressed(i));
 			}
-			cliPrintf("\n");
+			cliPrintf("\r\n");
 			delay(100);
 		}
 		ret = true;

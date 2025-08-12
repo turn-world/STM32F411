@@ -3,6 +3,8 @@
  *
  *  Created on: Dec 6, 2020
  *      Author: baram
+ *
+ *      하드웨어가 공통으로 쓸 관련된 정의들
  */
 
 #ifndef SRC_HW_HW_DEF_H_
@@ -34,6 +36,9 @@
 
 #define	_USE_HW_GPIO
 #define		 HW_GPIO_MAX_CH			1
+
+#define _USE_HW_SD
+#define _PIN_GPIO_SDCARD_DETECT		1
 
 
 #endif /* SRC_HW_HW_DEF_H_ */

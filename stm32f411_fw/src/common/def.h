@@ -10,8 +10,8 @@
 
 
 #include <stdio.h>
-#include <stdint.h>
-#include <stdbool.h>
+#include <stdint.h>		//uint32_t 같은거 쓰게 해주는 라이브러리
+#include <stdbool.h>	//bool 함수
 #include <stdarg.h>
 #include <string.h>
 #include <stdlib.h>

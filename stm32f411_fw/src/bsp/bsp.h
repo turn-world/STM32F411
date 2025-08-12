@@ -27,8 +27,8 @@
 
 void bspInit(void);
 
-void delay(uint32_t ms);
-uint32_t millis(void);
+void delay(uint32_t ms); // ms단위로 지연 시키는 함수
+uint32_t millis(void); 	// ms단위로 바뀌는 카운트 값
 
 void Error_Handler(void);
 
