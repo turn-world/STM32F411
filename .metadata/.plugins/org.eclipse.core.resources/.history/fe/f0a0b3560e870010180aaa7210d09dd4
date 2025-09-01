@@ -1,0 +1,17 @@
+/*
+ * fatfs.c
+ *
+ *  Created on: Sep 1, 2025
+ *      Author: young
+ */
+
+
+#include "fatfs.h"
+#include "cli.h"
+
+#ifdef _USE_HW_FATFS
+#include "ff_gen_drv.h"
+#include "sd_diskio.h"
+
+
+#endif

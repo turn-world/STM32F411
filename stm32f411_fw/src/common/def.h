@@ -3,6 +3,7 @@
  *
  *  Created on: Dec 6, 2020
  *      Author: baram
+ *      모두가 공통으로 쓸 헤더파일
  */
 
 #ifndef SRC_COMMON_DEF_H_

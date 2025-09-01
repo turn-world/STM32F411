@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;stm32f411_fw/src/lib/FatFs/doc&apos;" deleteContents="false" description="Delete resource &apos;stm32f411_fw/src/lib/FatFs/doc&apos;" element1="/stm32f411_fw/src/lib/FatFs/doc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1756714081742"/>
+</session>

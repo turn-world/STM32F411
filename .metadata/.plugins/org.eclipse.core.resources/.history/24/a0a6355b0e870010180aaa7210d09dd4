@@ -1,0 +1,28 @@
+/*
+ * fatfs.c
+ *
+ *  Created on: Sep 1, 2025
+ *      Author: young
+ */
+
+
+#include "fatfs.h"
+#include "cli.h"
+
+#ifdef _USE_HW_FATFS
+#include "ff_gen_drv.h"
+#include "sd_diskio.h"
+
+static bool is_init = false;
+
+FATFS SDFatFs;  /* File system object for SD card logical drive */
+char SDPath[4]; /* SD card logical drive path */
+
+
+#ifdef _USE_HW_CLI
+static void cliFatfs(cli_args_t *args);
+
+#endif
+
+
+#endif

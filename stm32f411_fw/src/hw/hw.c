@@ -9,9 +9,6 @@
 #include "hw.h"
 
 
-
-
-
 void hwInit(void)
 {
   bspInit();
@@ -23,4 +20,8 @@ void hwInit(void)
   buttonInit();
   gpioInit();
   sdInit();
+  if(sdInit() == true)
+  {
+	  fatfsInit();
+  }
 }
