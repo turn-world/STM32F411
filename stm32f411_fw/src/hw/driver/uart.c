@@ -13,10 +13,7 @@
 
 #ifdef _USE_HW_UART
 
-
 #define _USE_UART1
-
-
 
 static bool is_open[UART_MAX_CH];
 

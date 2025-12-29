@@ -3,10 +3,21 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="FS_Decs"/>
+		<item value="FS"/>
+		<item value="gpio"/>
+		<item value="gpio&apos;"/>
+		<item value="CLI_CMD_LIST_MAX"/>
 		<item value="DEF"/>
 		<item value="_DEF_OUTPUT_PULLDOWN"/>
 		<item value="RAM"/>
 		<item value="RAM\"/>
 		<item value="411"/>
 	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value=""/>
+		</list>
+	</section>
 </section>

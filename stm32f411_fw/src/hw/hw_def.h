@@ -14,9 +14,6 @@
 #include "def.h"
 #include "bsp.h"
 
-
-#define _USE_HW_USB
-#define _USE_HW_CDC
 #define _USE_HW_SD
 #define _USE_HW_FATFS
 
@@ -38,7 +35,12 @@
 #define	_USE_HW_GPIO
 #define		 HW_GPIO_MAX_CH			1
 
-#define _PIN_GPIO_SDCARD_DETECT		1
+#define _PIN_GPIO_SDCARD_DETECT		0
 
+
+#define _USE_HW_CDC
+#define _USE_HW_USB
+#define      HW_USE_CDC             1
+#define      HW_USE_MSC             1
 
 #endif /* SRC_HW_HW_DEF_H_ */
