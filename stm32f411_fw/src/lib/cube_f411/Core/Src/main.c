@@ -21,6 +21,7 @@
 #include "main.h"
 #include "dma.h"
 #include "sdio.h"
+#include "spi.h"
 #include "usb_otg.h"
 #include "gpio.h"
 
@@ -92,6 +93,7 @@ int main(void)
   MX_DMA_Init();
   MX_SDIO_SD_Init();
   MX_USB_OTG_FS_PCD_Init();
+  MX_SPI4_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */

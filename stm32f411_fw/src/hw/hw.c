@@ -20,6 +20,7 @@ void hwInit(void)
   buttonInit();
   gpioInit();
   flashInit();
+  spiInit();
 
   if(sdInit() == true)
   {
@@ -35,5 +36,5 @@ void hwInit(void)
 	  usbBegin(USB_CDC_MODE);
   }
 
-
+  lcdInit();
 }
