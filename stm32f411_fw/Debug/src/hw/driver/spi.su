@@ -1,0 +1,13 @@
+../src/hw/driver/spi.c:35:6:spiInit	16	static
+../src/hw/driver/spi.c:50:6:spiBegin	24	static
+../src/hw/driver/spi.c:85:6:spiSetDataMode	24	static
+../src/hw/driver/spi.c:126:6:spiSetBitWidth	24	static
+../src/hw/driver/spi.c:142:9:spiTransfer8	32	static
+../src/hw/driver/spi.c:158:10:spiTransfer16	40	static
+../src/hw/driver/spi.c:187:6:spiDmaTxStart	32	static
+../src/hw/driver/spi.c:198:6:spiDmaTxTransfer	32	static
+../src/hw/driver/spi.c:222:6:spiDmaTxIsDone	24	static
+../src/hw/driver/spi.c:231:6:spiAttachTxInterrupt	24	static
+../src/hw/driver/spi.c:243:6:HAL_SPI_TxCpltCallback	24	static
+../src/hw/driver/spi.c:260:6:HAL_SPI_MspInit	56	static
+../src/hw/driver/spi.c:321:6:HAL_SPI_MspDeInit	16	static

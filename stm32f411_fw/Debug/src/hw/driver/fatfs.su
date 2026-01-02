@@ -1,0 +1,3 @@
+../src/hw/driver/fatfs.c:26:6:fatfsInit	16	static
+../src/hw/driver/fatfs.c:47:9:fatfsDir	352	static
+../src/hw/driver/fatfs.c:76:6:cliFatfs	624	static

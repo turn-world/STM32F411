@@ -1,0 +1,10 @@
+../src/hw/driver/usb/usb_msc/usbd_msc.c:214:9:USBD_MSC_Init	24	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:270:9:USBD_MSC_DeInit	16	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:308:9:USBD_MSC_Setup	32	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:443:9:USBD_MSC_DataIn	16	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:457:9:USBD_MSC_DataOut	16	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:470:10:USBD_MSC_GetHSCfgDesc	24	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:495:10:USBD_MSC_GetFSCfgDesc	24	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:520:10:USBD_MSC_GetOtherSpeedCfgDesc	24	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:544:10:USBD_MSC_GetDeviceQualifierDescriptor	16	static
+../src/hw/driver/usb/usb_msc/usbd_msc.c:556:9:USBD_MSC_RegisterStorage	16	static

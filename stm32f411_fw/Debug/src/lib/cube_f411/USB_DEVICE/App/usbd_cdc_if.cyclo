@@ -1,0 +1,12 @@
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:42:10:cdcAvailable	1
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:51:9:cdcRead	2
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:65:6:cdcDataIn	2
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:79:10:cdcWrite	4
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:107:10:cdcGetBaud	1
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:114:9:USBD_CDC_SOF	3
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:258:15:CDC_Init_FS	1
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:272:15:CDC_DeInit_FS	1
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:286:15:CDC_Control_FS	3
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:379:15:CDC_Receive_FS	3
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:415:9:CDC_Transmit_FS	2
+../src/lib/cube_f411/USB_DEVICE/App/usbd_cdc_if.c:441:15:CDC_TransmitCplt_FS	1

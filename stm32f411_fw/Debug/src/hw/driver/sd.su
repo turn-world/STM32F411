@@ -1,0 +1,15 @@
+../src/hw/driver/sd.c:29:6:sdInit	16	static
+../src/hw/driver/sd.c:71:6:sdDeInit	16	static
+../src/hw/driver/sd.c:86:8:sdIsInit	4	static
+../src/hw/driver/sd.c:92:8:sdIsDetected	8	static
+../src/hw/driver/sd.c:106:8:sdGetInfo	80	static
+../src/hw/driver/sd.c:133:8:sdIsBusy	16	static
+../src/hw/driver/sd.c:150:8:sdIsReady	24	static
+../src/hw/driver/sd.c:167:6:sdReadBlocks	32	static
+../src/hw/driver/sd.c:199:6:sdWriteBlocks	32	static
+../src/hw/driver/sd.c:231:6:sdEraseBlocks	24	static
+../src/hw/driver/sd.c:243:6:HAL_SD_RxCpltCallback	16	static
+../src/hw/driver/sd.c:248:6:HAL_SD_TxCpltCallback	16	static
+../src/hw/driver/sd.c:254:6:HAL_SD_MspInit	48	static
+../src/hw/driver/sd.c:342:6:HAL_SD_MspDeInit	24	static
+../src/hw/driver/sd.c:392:6:cliSd	552	static
