@@ -1,0 +1,36 @@
+/*
+ * ap.c
+ *
+ *  Created on: Dec 6, 2020
+ *      Author: baram
+ */
+
+
+#include "ap.h"
+
+
+
+
+void apInit(void)
+{
+	logPrintf("stm32cli V1.0\n");
+  cliOpen(_DEF_UART1, 57600);
+
+}
+
+void apMain(int argc, char *argv[])
+{
+  uint32_t pre_time;
+  int cnt = 0;
+
+  pre_time = millis();
+  while(1)
+  {
+    if (millis()-pre_time >= 500)
+    {
+      pre_time = millis();
+    }
+    cliMain();
+  }
+}
+

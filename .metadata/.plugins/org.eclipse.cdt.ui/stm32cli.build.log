@@ -1,0 +1,10 @@
+19:57:18 **** Incremental Build of configuration Debug for project stm32cli ****
+Info: Internal Builder is used for build
+gcc -IC:\project\study\stm32cli\src -IC:\project\study\stm32cli\src\ap -IC:\project\study\stm32cli\src\bsp -IC:\project\study\stm32cli\src\common -IC:\project\study\stm32cli\src\common\core -IC:\project\study\stm32cli\src\common\hw\include -IC:\project\study\stm32cli\src\hw -IC:\project\study\stm32cli\src\lib -O0 -std=gnu11 -g3 -Wall -c -fmessage-length=0 -o src\hw\driver\uart.o ..\src\hw\driver\uart.c 
+gcc -IC:\project\study\stm32cli\src -IC:\project\study\stm32cli\src\ap -IC:\project\study\stm32cli\src\bsp -IC:\project\study\stm32cli\src\common -IC:\project\study\stm32cli\src\common\core -IC:\project\study\stm32cli\src\common\hw\include -IC:\project\study\stm32cli\src\hw -IC:\project\study\stm32cli\src\lib -O0 -std=gnu11 -g3 -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.c 
+gcc -IC:\project\study\stm32cli\src -IC:\project\study\stm32cli\src\ap -IC:\project\study\stm32cli\src\bsp -IC:\project\study\stm32cli\src\common -IC:\project\study\stm32cli\src\common\core -IC:\project\study\stm32cli\src\common\hw\include -IC:\project\study\stm32cli\src\hw -IC:\project\study\stm32cli\src\lib -O0 -std=gnu11 -g3 -Wall -c -fmessage-length=0 -o src\ap\ap.o ..\src\ap\ap.c 
+gcc -o stm32cli src\ap\ap.o src\bsp\bsp.o src\common\core\qbuffer.o src\hw\driver\cli.o src\hw\driver\uart.o src\hw\hw.o src\main.o 
+Info: Parallel threads used: 3
+
+19:57:19 Build Finished. 0 errors, 0 warnings. (took 930ms)
+
