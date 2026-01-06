@@ -1,2 +1,4 @@
-../src/ap/ap.c:14:6:apInit	0	static
-../src/ap/ap.c:19:6:apMain	8	static
+../src/ap/ap.c:15:6:apInit	8	static
+../src/ap/ap.c:22:6:apMain	8	static
+../src/ap/ap.c:40:6:bootDownload	1256	static
+../src/ap/ap.c:117:6:cliBoot	16	static
