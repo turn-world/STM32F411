@@ -1,0 +1,7 @@
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:179:8:STORAGE_Init_FS	1
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:193:8:STORAGE_GetCapacity_FS	2
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:214:8:STORAGE_IsReady_FS	4
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:238:8:STORAGE_IsWriteProtected_FS	1
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:250:8:STORAGE_Read_FS	3
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:269:8:STORAGE_Write_FS	3
+../src/hw/driver/usb/usb_msc/usbd_storage_if.c:288:8:STORAGE_GetMaxLun_FS	1

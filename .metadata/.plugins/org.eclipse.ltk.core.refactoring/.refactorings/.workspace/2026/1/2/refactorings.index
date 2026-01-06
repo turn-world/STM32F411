@@ -1,0 +1,6 @@
+1767679636576	Delete 2 resources
+1767679656945	Delete resource 'stm32f411_boot/src/lib/FatFs'
+1767679935612	Delete resource 'stm32f411_boot/src/hw/driver/fatfs'
+1767679937473	Delete resource 'stm32f411_boot/src/hw/driver/hangul'
+1767679939440	Delete resource 'stm32f411_boot/src/hw/driver/lcd'
+1767680079825	Delete resource 'stm32f411_boot/Debug'

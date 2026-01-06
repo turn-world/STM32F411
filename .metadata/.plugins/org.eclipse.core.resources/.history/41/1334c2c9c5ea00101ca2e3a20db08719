@@ -1,0 +1,3 @@
+../src/hw/driver/fatfs.c:26:6:fatfsInit	3
+../src/hw/driver/fatfs.c:47:9:fatfsDir	5
+../src/hw/driver/fatfs.c:76:6:cliFatfs	16

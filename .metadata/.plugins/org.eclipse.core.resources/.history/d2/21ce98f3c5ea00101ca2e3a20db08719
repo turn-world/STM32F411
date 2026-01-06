@@ -1,0 +1,5 @@
+../src/hw/driver/hangul/han.c:21:10:hanFontLoad	6
+../src/hw/driver/hangul/han.c:69:6:hanWanFontLoad	9
+../src/hw/driver/hangul/han.c:110:6:hanUniFontLoad	9
+../src/hw/driver/hangul/han.c:157:6:hanEngFontLoad	2
+../src/hw/driver/hangul/han.c:172:10:hanCnvCodeWan2Johab	1

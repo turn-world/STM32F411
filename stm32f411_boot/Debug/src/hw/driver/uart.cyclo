@@ -1,0 +1,7 @@
+../src/hw/driver/uart.c:30:6:uartInit	1
+../src/hw/driver/uart.c:41:6:uartOpen	1
+../src/hw/driver/uart.c:97:10:uartAvailable	2
+../src/hw/driver/uart.c:118:9:uartRead	2
+../src/hw/driver/uart.c:138:10:uartWrite	2
+../src/hw/driver/uart.c:164:10:uartPrintf	1
+../src/hw/driver/uart.c:182:10:uartGetBaud	2

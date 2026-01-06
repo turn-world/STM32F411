@@ -1,0 +1,14 @@
+../src/hw/driver/lcd/st7735.c:47:13:TransferDoneISR	3
+../src/hw/driver/lcd/st7735.c:63:6:st7735Init	1
+../src/hw/driver/lcd/st7735.c:72:6:st7735InitDriver	1
+../src/hw/driver/lcd/st7735.c:85:6:st7735Reset	1
+../src/hw/driver/lcd/st7735.c:106:10:st7735GetWidth	1
+../src/hw/driver/lcd/st7735.c:111:10:st7735GetHeight	1
+../src/hw/driver/lcd/st7735.c:116:6:writecommand	1
+../src/hw/driver/lcd/st7735.c:126:6:writedata	1
+../src/hw/driver/lcd/st7735.c:136:6:st7735InitRegs	1
+../src/hw/driver/lcd/st7735.c:216:6:st7735SetRotation	5
+../src/hw/driver/lcd/st7735.c:240:6:st7735SetWindow	1
+../src/hw/driver/lcd/st7735.c:259:6:st7735FillRect	11
+../src/hw/driver/lcd/st7735.c:292:6:st7735SendBuffer	1
+../src/hw/driver/lcd/st7735.c:305:6:st7735SetCallBack	1

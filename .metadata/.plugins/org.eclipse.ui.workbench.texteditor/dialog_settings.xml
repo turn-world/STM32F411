@@ -3,6 +3,8 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="gpio show"/>
+		<item value="gpio_show"/>
 		<item value="FS_Decs"/>
 		<item value="FS"/>
 		<item value="gpio"/>

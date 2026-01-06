@@ -1,0 +1,7 @@
+../src/hw/driver/usb/core/usbd_ctlreq.c:979:6:USBD_CtlError.constprop	1
+../src/hw/driver/usb/core/usbd_ctlreq.c:104:20:USBD_StdDevReq	56
+../src/hw/driver/usb/core/usbd_ctlreq.c:167:20:USBD_StdItfReq	9
+../src/hw/driver/usb/core/usbd_ctlreq.c:239:20:USBD_StdEPReq	32
+../src/hw/driver/usb/core/usbd_ctlreq.c:950:6:USBD_ParseSetupRequest	1
+../src/hw/driver/usb/core/usbd_ctlreq.c:979:6:USBD_CtlError	1
+../src/hw/driver/usb/core/usbd_ctlreq.c:996:6:USBD_GetString	3

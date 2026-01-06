@@ -1,0 +1,6 @@
+../src/hw/driver/fatfs/sd_diskio.c:72:16:SD_CheckStatus	16	static
+../src/hw/driver/fatfs/sd_diskio.c:98:9:SD_initialize	16	static
+../src/hw/driver/fatfs/sd_diskio.c:115:9:SD_status	16	static
+../src/hw/driver/fatfs/sd_diskio.c:128:9:SD_read	32	static
+../src/hw/driver/fatfs/sd_diskio.c:149:9:SD_write	32	static
+../src/hw/driver/fatfs/sd_diskio.c:170:9:SD_ioctl	56	static

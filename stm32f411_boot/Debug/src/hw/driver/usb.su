@@ -1,0 +1,4 @@
+../src/hw/driver/usb.c:33:6:usbInit	0	static
+../src/hw/driver/usb.c:40:6:usbDeInit	0	static
+../src/hw/driver/usb.c:48:9:usbGetMode	0	static
+../src/hw/driver/usb.c:53:6:usbBegin	8	static
